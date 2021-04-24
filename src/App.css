@@ -55,4 +55,8 @@
 }
 .ant-collapse {
   border-radius: 0.6em !important;
+  font-size: 1.35em;
+}
+.p {
+  font-size: 0.9em !important;
 }
