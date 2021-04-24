@@ -1,3 +1,4 @@
+@import "antd/dist/antd.css";
 .App {
   text-align: center;
 }
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.content {
+  min-height: 86.9vh;
+  border-radius: 10em;
+}
+
+.ant-layout-header {
+  background: none;
+  height: auto !important;
+}
+.title {
+  margin-top: 0.7em;
+  font-size: 2.2em;
+}
+.faqs {
+  margin: 1.5em 15%;
+}
+.ant-collapse {
+  border-radius: 0.6em !important;
 }
